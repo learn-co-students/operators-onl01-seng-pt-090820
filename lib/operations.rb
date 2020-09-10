@@ -13,6 +13,3 @@ end
 unsafe?(59)
 
 not_safe?(59)
-	
-
-
