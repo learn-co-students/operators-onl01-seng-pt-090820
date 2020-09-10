@@ -1,3 +1,4 @@
+# First Solution
 # def unsafe?(speed)
 #     if speed > 60 || speed < 40
 #         true
@@ -6,6 +7,7 @@
 #     end
 # end
 
+# Second Solution
 def unsafe?(speed)
     if !speed.between?(40, 60)
         true
@@ -14,6 +16,10 @@ def unsafe?(speed)
     end
 end
 
+# def not_safe?(speed)
+# 	speed > 60 || speed < 40 ? true : false
+# end
+
 def not_safe?(speed)
-	speed > 60 || speed < 40 ? true : false
+	speed.between?(40, 60) ? false : true
 end
