@@ -3,6 +3,8 @@ speed > 60? unsafe(speed): safe(speed)
 speed < 40? unsafe(speed): safe(speed)
 speed > 40 <60? unsafe(speed): safe(speed)
 end 
+end
+end 
 
 
     
@@ -12,5 +14,4 @@ speed < 40? true: false
 end
 	
 
-def 
 
